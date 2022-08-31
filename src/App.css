@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +39,62 @@
   to {
     transform: rotate(360deg);
   }
+}
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-size: 700;
+  color: white;
+  font-weight: bold;
+ 
+}
+
+span{
+  margin-right: -80px;
+}
+.idclass{
+  border: 1px groove gray;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 7px; 
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  margin-left: -30px;
+  margin-right: 5px;
+  font-family: 'Special Elite', cursive;
+}
+button:hover{
+  color: gray;
+  font-size: large;
+}
+
+input {
+  position: relative;
+  left: 20px;
+}
+.div{
+  border: 3px ridge white;
+  border-width: 10px;
+  height: fit-content;
+  width: fit-content;
+   position: relative;
+   left: 26%;
+}
+body{
+  /* background-color: black; */
+  background-image: url(https://t4.ftcdn.net/jpg/02/46/11/45/360_F_246114560_O7EKssDoFwNRsuJQJ8fXn760wH9ubhnq.jpg);
+  background-size: cover;
+}
+h1{
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 3px 3px 3px gray;
+  font-size: 2.5rem;
+  text-decoration: overline wheat;
 }
