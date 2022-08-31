@@ -85,6 +85,7 @@ input {
   width: fit-content;
    position: relative;
    left: 26%;
+   background-color: black;
 }
 body{
   /* background-color: black; */
