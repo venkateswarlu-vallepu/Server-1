@@ -75,14 +75,15 @@ function App() {
     <div className="App">
       <h1>Getting Data from Server-1</h1>
     
-      <button type='button' onClick={()=>{
+      <button className='button' type='button' onClick={()=>{
         onGetData();
       }}>Server Data</button>
        <br></br>
          <div className='div'>
           <div className='idclass'>
           <span>
-            <label className='label'>Check ID:</label>
+            <label className='label'>Check ID:
+            <label>(min-0 & max-5)</label></label>
           </span>
        <input id="login" type="number" min={0} max={5} ref={idInput} />
           <label  ref={idDisplay}></label>
@@ -93,7 +94,7 @@ function App() {
       </div>
       <div className='idclass'>
       <span>
-            <label className='label'>Check Name:</label>
+            <label className='label'>Check Name:   <label>(min-0 & max-5)</label></label>
           </span>
          <input id="login" type="number" min={0} max={5} ref={nameInput} />
           <label  ref={nameDisplay}></label>
@@ -104,7 +105,7 @@ function App() {
 </div>
       <div className='idclass'>
       <span>
-            <label className='label'>Check Email:</label>
+            <label className='label'>Check Email:  <label>(min-0 & max-5)</label></label>
           </span>
       <input id="login" type="number" min={0} max={5} ref={emailInput} />
           <label  ref={emailDisplay}></label>
