@@ -86,7 +86,7 @@ function App() {
           </span>
        <input id="login" type="number" min={0} max={5} ref={idInput} />
           <label  ref={idDisplay}></label>
-
+          <br></br>
       <button type='button' onClick={()=>{
         gettingId();
       }}>GetData</button>
@@ -97,7 +97,7 @@ function App() {
           </span>
          <input id="login" type="number" min={0} max={5} ref={nameInput} />
           <label  ref={nameDisplay}></label>
-
+          <br></br>
       <button type='button' onClick={()=>{
         gettingName();
       }}>GetData</button>
@@ -108,7 +108,7 @@ function App() {
           </span>
       <input id="login" type="number" min={0} max={5} ref={emailInput} />
           <label  ref={emailDisplay}></label>
-
+          <br></br>
       <button type='button' onClick={()=>{
        gettingEmail();
       }}>GetData</button>
